@@ -1,0 +1,32 @@
+--- Bluemix Platform ---
+
+API Endpoint: https://api.ng.bluemix.net/
+Org: jeff.jakubiak@us.ibm.com
+Space: dev
+
+--- Watson IOT Platform ---
+
+ORG: 84quin
+
+### DEVICES ###
+
+Device Type ti-sensortag2
+  Device ID jj-ti-sensortag2
+
+### APPS ###
+
+Bluemix App: jj-iot-starter
+  API Key               a-84quin-w1fm23bd6c
+  Authentication Token  AbLG7ixBM9Rq7tM3O)
+
+Mendix App: IBM_WoW_TF_Demo_JJ
+  API Key               a-84quin-r4maxbbvas
+  Authentication Token  D*Y1WP(U9*JL0K@zN@
+
+Mendix App: Oil_Gas_IoT_Demo (Local)
+  API Key               a-84quin-lm6jaom5r7
+  Authentication Token  TEtyfGjZOiE-*P+1-Z
+
+Mendix App: Oil_Gas_IoT_Demo (Bluemix)
+  API Key               a-84quin-gyvoiyohtp
+  Authentication Token  eaCC*7T*pThhTju1n8

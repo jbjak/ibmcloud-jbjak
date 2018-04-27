@@ -1,0 +1,7 @@
+applications:
+- services:
+  - jj-tone-svc
+  name: jj-customer-engagement
+  command: npm start
+  path: .
+  memory: 512M

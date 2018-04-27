@@ -1,0 +1,9 @@
+---
+applications:
+- services:
+  - jj-ta-service
+  name: jj-tone-analyzer
+  command: npm start
+  path: .
+  instances: 2
+  memory: 512MB

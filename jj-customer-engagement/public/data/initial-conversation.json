@@ -1,0 +1,310 @@
+{
+  "customer": {
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+  },
+  "agent": {
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+  },
+  "utterances": [
+    {
+      "user": {
+        "type": "customer",
+        "name": "Scott",
+        "handle": "@Scott_theConsumer"
+      },
+      "statement": {
+        "text": "Hey OnStar",
+        "timestamp": "6 hours ago"
+      },
+      "tones": [
+        {
+          "tone": "polite",
+          "score": 0.65
+        }
+      ]
+    }
+    ,
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Hello Scott. Thank you for contacting OnStar. How may I help you today?",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "polite",
+     "score": 0.984103
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "how's the weather",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Today's weather in your current location is a high of 75 degrees with partly cloudy skies. There is a 40 percent chance of showers later this afternoon.",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "I am feeling hungry",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "frustrated",
+     "score": 0.682482
+    },
+    {
+     "tone": "sad",
+     "score": 0.578881
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Of course. Do you have a specific cuisine in mind?",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "pasta would be good",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "excited",
+     "score": 0.546538
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Super! According to Yelp, there are 5 great options in the area. Which one would you like to drive to?",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "the best one",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "excited",
+     "score": 0.566849
+    },
+    {
+     "tone": "satisfied",
+     "score": 0.557738
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Sure thing! The first restaurant gets great reviews. What day/time did you want to go to the restaurant?",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "excited",
+     "score": 0.72861
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "let's go right now",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Ok, let's go to the restaurant at 9:52 AM, on Wed, 19 Jul 2017.",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "how is traffic",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "You are 27 miles from your destination. Traffic conditions indicate your arrival time will be approximately 24 minutes from now or . There are not currently any driving c",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "is my vehicle doing ok?",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Looks like everything is in good order with your vehicle.",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "polite",
+     "score": 0.532008
+    },
+    {
+     "tone": "excited",
+     "score": 0.521904
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "let's go home",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Loading directions to your home. Don't forget tomorrow is your wife's birthday! You might want to stop and grab her some flowers.",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "excited",
+     "score": 0.691332
+    }
+   ]
+  },
+  {
+   "user": {
+    "type": "customer",
+    "name": "Scott",
+    "handle": "@Scott_theConsumer"
+   },
+   "statement": {
+    "text": "all set",
+    "timestamp": "now"
+   },
+   "tones": []
+  },
+  {
+   "user": {
+    "type": "agent",
+    "name": "Agent",
+    "handle": "@Agent_technology_company"
+   },
+   "statement": {
+    "text": "Thank you for contacting OnStar today Scott. By the way... according to your vehicle records, you have no urgent alerts but your Cadillac CTS is due for an oil change and",
+    "timestamp": "now"
+   },
+   "tones": [
+    {
+     "tone": "polite",
+     "score": 0.649001
+    }
+   ]
+  }
+ ]
+}

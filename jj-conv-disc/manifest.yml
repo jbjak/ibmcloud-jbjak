@@ -1,0 +1,7 @@
+---
+applications:
+- services:
+  - jj-discovery-svc
+  - jj-conversation-svc
+  path: build/libs/conversation-with-discovery-0.1-SNAPSHOT.war
+  memory: 1024M

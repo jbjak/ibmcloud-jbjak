@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ibm.watson.apis.conversation_with_discovery.rest.ProxyResourceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-15T20:12:21" hostname="JJ-MacBookPro.local" time="5.874">
+  <properties/>
+  <testcase name="testSendMessage" classname="com.ibm.watson.apis.conversation_with_discovery.rest.ProxyResourceTest" time="5.874"/>
+  <system-out><![CDATA[2017-06-15 16:12:27,034 INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+]]></system-out>
+  <system-err><![CDATA[Jun 15, 2017 4:12:21 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[57147] starting to accept connections
+Jun 15, 2017 4:12:27 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[57147] received request: POST /v1/workspaces/123/message?version=2016-09-20 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 15, 2017 4:12:27 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[57147] done accepting connections: Socket closed
+]]></system-err>
+</testsuite>

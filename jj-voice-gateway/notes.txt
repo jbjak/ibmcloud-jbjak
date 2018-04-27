@@ -1,0 +1,78 @@
+https://www.ibm.com/support/knowledgecenter/SS4U29/welcome_voicegateway.html
+https://www.youtube.com/watch?v=5ZQUgF7GOsU
+
+https://www.ibm.com/support/knowledgecenter/SS4U29/gettingstarted.html
+https://github.com/WASdev/sample.voice.gateway
+
+Sip identity : sip:jbjak@sip.linphone.org
+Username : jbjak
+Domain / Proxy : sip.linphone.org
+
+sip:watson@<IP address of the voice gateway Docker Engine>:5060
+169.46.26.197   e1df1083-5723-4ed2-bd75-7b64a55b7705
+169.46.26.202   b86b9691-ea27-4fc9-89d6-0a04c1e03f29
+sip:watson@169.46.26.202:5060
+
+jj-kubernetes
+Cluster ID
+1b6012555ceb414480a3693d7958c8fc
+Kubernetes version
+1.5
+Location
+us-south-hou02
+Managed from
+us-south
+
+jj-s2t-svc
+{
+  "url": "https://stream.watsonplatform.net/speech-to-text/api",
+  "username": "2e5a91a1-46e5-485e-95be-317e341f9384",
+  "password": "5Zx1G2k35mzW"
+}
+
+jj-t2s-svc
+{
+  "url": "https://stream.watsonplatform.net/text-to-speech/api",
+  "username": "f410f918-b983-444e-859a-52d5c51ae733",
+  "password": "MzYQzWsGrMvq"
+}
+
+jj-conversation-svc
+{
+  "url": "https://gateway.watsonplatform.net/conversation/api",
+  "username": "3276bdc8-4d79-42b1-9320-33a364f346a2",
+  "password": "kQFChaXBmsuO"
+}
+VoiceGatewaySample
+Workspace ID: acd7e478-4428-4c33-beb7-6722c36a72a4
+VoiceGatewayConversation
+Workspace ID: ad88ee89-9e42-4376-80e9-edbbf50c55c9
+OnStar_Voice_Gateway
+Workspace ID: b90cd072-5ca1-4663-8f24-a33bf6a8cdb0
+
+Enable the voice gateway's MQTT plug-in.
+    MQTT_PLUGIN_ENABLE=true
+    Configure the MQTT broker address.
+    MQTT_BROKER_ADDRESS=<IP Address> (e.g MQTT_BROKER_ADDRESS=169.44.122.120)
+    Lastly, you can also configure the root topic that is used when publishing all the transcript utterance messages.
+    MQTT_TOPIC_PATH=<topic path>
+    Note that the default topic path is set to /voice-gateway/.
+
+Device jj-voice-gateway
+84quin.messaging.internetofthings.ibmcloud.com:1883
+    Organization ID 84quin
+    Device Type MQTTDevice
+    Device ID jj-voice-gateway
+    Authentication Method token
+    User name: use-token-auth
+    Authentication Token: jj-voice-gateway
+    API Key: a-84quin-72tqmk3xve
+    Authentication Token: _WRUvNjeFtRCnTJ&@N
+jj-tone-svc
+    "tone_analyzer": [
+        {
+          "credentials": {
+            "url": "https://gateway.watsonplatform.net/tone-analyzer/api",
+            "username": "bdbee7d4-d80d-4d83-8a77-7facbe218b61",
+            "password": "tnsNhohy6xYY"
+          },

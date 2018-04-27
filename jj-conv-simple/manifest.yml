@@ -1,0 +1,7 @@
+applications:
+- services:
+  - jj-conversation-svc
+  name: jj-conv-simple
+  command: npm start
+  path: .
+  memory: 512M
